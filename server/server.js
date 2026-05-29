@@ -31,6 +31,14 @@ app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`)
 })
 
+async function startServer() {
+  await connectDB()
+  app.listen(PORT, () => {
+    console.log(`Server running on port ${PORT}`)
+  })
+}
+startServer()
+
 const startServer = async () => {
   try {
     await connectDB();
