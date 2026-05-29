@@ -3,8 +3,8 @@
 A full-stack web application for managing customer support tickets.
 
 ## Live Demo
-- **Frontend**: https://your-vercel-url.vercel.app
-- **Backend API**: https://your-render-url.onrender.com
+- **Frontend**: https://support-crm-one.vercel.app
+- **Backend API**: https://support-crm-api.onrender.com
 
 ## Tech Stack
 - **Frontend**: React + Vite + Tailwind CSS
