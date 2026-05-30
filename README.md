@@ -6,6 +6,10 @@ A full-stack web application for managing customer support tickets.
 - **Frontend**: https://support-crm-one.vercel.app
 - **Backend API**: https://support-crm-api.onrender.com
 
+## Test Credentials
+- **Username**: admin
+- **Password**: support123
+
 ## Tech Stack
 - **Frontend**: React + Vite + Tailwind CSS
 - **Backend**: Node.js + Express
@@ -56,5 +60,5 @@ VITE_API_URL=http://localhost:5000
 | POST | /api/auth/login | Login | No |
 | POST | /api/tickets | Create ticket | Yes |
 | GET | /api/tickets | List all tickets | Yes |
-| GET | /api/tickets/:id | Get ticket detail | Yes |
-| PUT | /api/tickets/:id | Update ticket | Yes |
+| GET  | /api/tickets/:ticket_id | Get ticket detail | Yes |
+| PUT  | /api/tickets/:ticket_id | Update ticket     | Yes |
