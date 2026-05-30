@@ -6,6 +6,12 @@ A full-stack web application for managing customer support tickets.
 - **Frontend**: https://support-crm-one.vercel.app
 - **Backend API**: https://support-crm-api.onrender.com
 
+## Important Note
+The backend is hosted on Render's free tier which spins down after 
+inactivity. The first request after a period of inactivity may take 
+30-50 seconds to respond — this is expected behaviour. 
+Subsequent requests will be fast.
+
 ## Test Credentials
 - **Username**: admin
 - **Password**: support123
